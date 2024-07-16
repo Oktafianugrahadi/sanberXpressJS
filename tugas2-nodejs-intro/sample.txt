@@ -1,0 +1,2 @@
+Halo, ini adalah contoh file teks.
+Baris kedua dari file teks ini.
