@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6" /* Set target ECMAScript version. */,
+    "module": "commonjs" /* Set module system. */,
+    "strict": true /* Enable all strict type-checking options. */,
+    "esModuleInterop": true /* Enable esModuleInterop for compatibility with CommonJS modules. */,
+    "skipLibCheck": true /* Skip type checking of declaration files. */,
+    "outDir": "./dist" /* Redirect output structure to the directory. */
+  },
+  "include": [
+    "src/**/*"
+  ] /* Include all TypeScript files in the src directory. */
+}
