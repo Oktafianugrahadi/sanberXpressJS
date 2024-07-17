@@ -1,0 +1,45 @@
+var hallo = "Hallo, nama saya Oktafianugrahadi";
+let angka1 = 5;
+let angka2 = 10;
+const benar = true;
+let data = null;
+let takTerdefinisi;
+let orang = { nama: "Okta", umur: 28 };
+let angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+console.log(hallo);
+console.log("Angka pertama : " + angka1);
+console.log("Angka kedua : " + angka1);
+console.log("Const default : " + benar);
+console.log("Data awal : " + data);
+console.log("Tak terdefinisi : " + takTerdefinisi);
+console.log("Objek : " + orang);
+console.log("Array : " + angka);
+
+let jumlah = angka1 + angka2;
+console.log("Angka pertama + Angka kedua = " + jumlah);
+let kurang = angka2 - angka1;
+console.log("Angka kedua - Angka pertama = " + kurang);
+let kali = angka1 * angka2;
+console.log("Angka pertama x Angka kedua = " + kali);
+let bagi = angka2 / angka1;
+console.log("Angka kedua / Angka pertama = " + bagi);
+let sisaBagi = angka2 % angka1;
+console.log("Angka kedua % Angka pertama = " + sisaBagi);
+
+let a = 5;
+let b = "5";
+var samaDengan = a == b;
+var identik = a === b;
+var tidakSamaDengan = a != b;
+var tidakIdentik = a !== b;
+var lebihBesar = a > 2;
+var lebihBesar = a < 2;
+console.log("Variabel a : " + a);
+console.log("Variabel b : " + b);
+console.log("a == b : " + samaDengan);
+console.log("a === b : " + identik);
+console.log("a != b : " + tidakSamaDengan);
+console.log("a !== b : " + tidakIdentik);
+console.log("a > 2 : " + lebihBesar);
+console.log("a < 2 : " + lebihBesar);
