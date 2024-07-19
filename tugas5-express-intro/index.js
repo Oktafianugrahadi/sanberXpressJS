@@ -12,13 +12,13 @@ app.use((req, res, next) => {
 // Melayani file statis dari direktori "public"
 app.use(express.static(path.join(__dirname, "public")));
 
-// Route untuk root path
-// app.get("/", (req, res) => {
-//   res.json({
-//     message: "Success fetch message",
-//     data: "Hello World!",
-//   });
-// });
+// Route untuk /hello
+app.get("/hello", (req, res) => {
+  res.json({
+    message: "Success fetch message",
+    data: "Hello World!",
+  });
+});
 
 // Route untuk /user
 app.get("/user", (req, res) => {
